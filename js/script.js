@@ -15,9 +15,6 @@ const a = prompt("Один из последних просмотренных ф
       c = prompt("Один из последних просмотренных фильмов?",""),
       d = +prompt("На сколько оцените его?","");
 
-// personalMovieDB['movies'['film']] = lastFilm;
-// personalMovieDB['movies'['logan']] = logan;
-
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
